@@ -23,10 +23,10 @@ var gulp         = require('gulp'),
 
 // Process our Sass Files
 gulp.task('sass', function() {
-	return sass('assets/scss/style.scss', { style: 'expanded' })
+	return sass('assets/sass/style.scss', { style: 'expanded' })
 		.pipe(autoprefixer('last 2 version', 'safari 5', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
 		.pipe(minifycss())
-		.pipe(gulp.dest('dist/css'))
+		.pipe(gulp.dest('/'))
 		//.pipe(browserSync.stream())
 		.pipe(notify({ message: 'Sass completed' }));
 });
@@ -73,8 +73,8 @@ gulp.task('default', function() {
 gulp.task('watch', function() {
 
 	// Watch Sass files
-	gulp.watch('assets/scss/*.scss', ['sass']);
-
+	gulp.watch('assets/sass/*.scss', ['sass']);
+  gulp.watch('assets/sass/woocommerce/*.scss', ['sass']);
 	// Watch Sass partials files
 
 
