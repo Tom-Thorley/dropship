@@ -72,9 +72,10 @@ wp-rss2.php
 wp-config*
 
 # {Project} specific
-!/wp-content/themes/woi
-/wp-content/themes/woi/.sass-cache/
-/wp-content/themes/woi/.sass-cache/*
+!/wp-content/themes/storefront
+/wp-content/themes/storefront/.sass-cache/
+/wp-content/themes/storefront/.sass-cache/*
+/wp-content/themes/storefront/node_modules/
 
 
 # large/disallowed file types

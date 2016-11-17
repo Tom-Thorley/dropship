@@ -1,0 +1,30 @@
+{
+  "name": "storefront",
+  "version": "1.0.0",
+  "description": "ecommerce",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-dependency-install": "0.0.8"
+  },
+  "devDependencies": {
+    "gulp-jshint": "^2.0.4",
+    "jshint": "^2.9.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tom",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tom-Thorley/dropship.git"
+  },
+  "keywords": [
+    "shop"
+  ],
+  "bugs": {
+    "url": "https://github.com/Tom-Thorley/dropship/issues"
+  },
+  "homepage": "https://github.com/Tom-Thorley/dropship#readme"
+}
