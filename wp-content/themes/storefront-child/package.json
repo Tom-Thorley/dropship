@@ -9,6 +9,7 @@
   },
   "devDependencies": {
     "gulp-jshint": "^2.0.4",
+    "gulp-rm": "^1.0.2",
     "jshint": "^2.9.4"
   },
   "scripts": {

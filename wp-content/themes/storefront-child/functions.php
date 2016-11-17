@@ -36,4 +36,4 @@ function sf_child_theme_dequeue_style() {
      );
 
  }
- add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles', 99 );
